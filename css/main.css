@@ -1,0 +1,278 @@
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v5-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/barlow-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/barlow-v5-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v5-latin-regular.woff") format("woff"), url("../fonts/barlow-v5-latin-regular.ttf") format("truetype"), url("../fonts/barlow-v5-latin-regular.svg#Barlow") format("svg");
+  /* Legacy iOS */
+}
+
+/* fraunces-regular - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v10-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fraunces-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fraunces-v10-latin-regular.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-regular.woff") format("woff"), url("../fonts/fraunces-v10-latin-regular.ttf") format("truetype"), url("../fonts/fraunces-v10-latin-regular.svg#Fraunces") format("svg");
+  /* Legacy iOS */
+}
+
+/* fraunces-900 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v10-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fraunces-v10-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fraunces-v10-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-900.woff") format("woff"), url("../fonts/fraunces-v10-latin-900.ttf") format("truetype"), url("../fonts/fraunces-v10-latin-900.svg#Fraunces") format("svg");
+  /* Legacy iOS */
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow';
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+
+.container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .menu .link-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .menu .link-ul .link-li {
+  list-style-type: none;
+}
+
+.container .menu .link-ul .link-li .link-a {
+  margin-left: 33px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: #83888F;
+}
+
+.container .menu .link-ul .link-li .link-a:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.about-img {
+  width: 100%;
+  height: 450px;
+  background-image: url("./../img/Object.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.about-img .h1 {
+  text-transform: capitalize;
+  padding-top: 137px;
+  padding-left: 85px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: #FEFCF7;
+}
+
+.about-img .p {
+  width: 530px;
+  padding-left: 85px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.ser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 168px;
+}
+
+.ser .ser-img {
+  width: 445px;
+  height: 520px;
+  border-radius: 10px;
+}
+
+.ser .ser-h2 {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.ser .ser-p {
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.about-quality {
+  margin-top: 150px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 474px;
+  background: #333D4B;
+}
+
+.about-quality .qual-h2 {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about-quality .qual-p {
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.about-quality .qual-img {
+  margin-top: -160px;
+  border-radius: 10px;
+}
+
+.road .road-h2 {
+  padding-left: 85px;
+  padding-top: 168px;
+  padding-bottom: 92px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px;
+  color: #83888F;
+}
+
+.road .headquarters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.road .headquarters .row {
+  margin-left: 85px;
+}
+
+.road .headquarters .row-2 {
+  margin-left: 200px;
+}
+
+.road .headquarters .row-img {
+  width: 35px;
+  height: 49px;
+  margin-bottom: 45px;
+}
+
+.road .headquarters .row-h3 {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.road .headquarters .row-p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.foot {
+  height: 120px;
+  background: #2C343E;
+  margin-top: 168px;
+  margin-bottom: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 85px;
+}
+
+.foot .ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 103px;
+  margin-right: 300px;
+}
+
+.foot .ul .li {
+  list-style-type: none;
+  padding-left: 33px;
+}
+
+.foot .ul .li .a {
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #83888F;
+}
+
+.foot .ul .li .a:hover {
+  color: #fff;
+}
+
+.foot .foot-img .img-row {
+  padding-left: 24px;
+}
+/*# sourceMappingURL=main.css.map */
